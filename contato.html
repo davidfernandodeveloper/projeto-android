@@ -4,10 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Curiosidades</title>
+    <link rel="shortcut icon" href="conteudo/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <h1>Pagina de Contato!!</h1>
+    <header>
+        <h1>Curiosidade de Tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="curiosidade.html">Curiosidades</a>
+        <a href="contato.html">Fale Conosco</a>
+
+    </nav>
+
+    <main>  
+        <form>
+            <fieldset>
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            
+            <div>
+                <label>Endereço</label>
+                <input type="text" name="endereco" id="endereco">  
+            </div>
+
+            <div>
+                <label>Cidade</label>
+                <input type="text" name="cidade" id="cidade">   
+            </div>
+            
+            <div>
+                <label>Estado:</label>
+                <select id="uf" name="uf">
+                    <option selected  value="" >Selecione</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                 </select>
+
+            </div>
+
+            <div>
+                <label>Selecione quais assuntos são do seu interesse:</label>
+                <label>
+                    <input type="radio" name="interesse" value="tecnologia" checked>Tecnologia
+                </label>
+                <label>
+                    <input type="radio" name="interesse" value="esporte">Educação
+                </label>
+                <label>
+                    <input type="radio" name="interesse" value="saude">Saúde
+                </label>
+                <label>
+                    <input type="radio" name="interesse" value="economia">Economia
+                </label>
+
+            </div>
+
+            <div>
+                <label>Fale um pouco mais sobre você</label>
+                <textarea rows="10"></textarea>
+
+            </div>
+
+                
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Site criado por David Fernando</p>
+    </footer>
+
     
 </body>
 </html>
